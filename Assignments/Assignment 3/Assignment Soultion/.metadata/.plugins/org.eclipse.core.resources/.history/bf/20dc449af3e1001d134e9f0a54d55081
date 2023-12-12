@@ -1,0 +1,39 @@
+/*
+ * Prob19.c
+ *
+ *  Created on: Apr 23, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+#define SIZE 5
+
+int compare(int *arra,int *arrb,int size);
+
+int main(void){
+
+	int Arra[SIZE]={1,2,3,4,5};
+	int Arrb[SIZE]={1,2,3,4,5};
+	int reuslt=compare(Arra, Arrb, SIZE);
+	printf("The Result is %d",reuslt);
+	fflush(stdout);
+
+	return 0;
+}
+
+int compare(int *arra,int *arrb,int size){
+
+	int i;
+	for(i=0;i<size;i++){
+
+		if(arra[i]!=arrb[i]){
+			return 1;
+		}
+
+	}
+	return 0;
+
+
+}
+

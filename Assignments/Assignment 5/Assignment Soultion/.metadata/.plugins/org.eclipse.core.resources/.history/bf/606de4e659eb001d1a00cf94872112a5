@@ -1,0 +1,53 @@
+/*
+ * Prob04.c
+ *
+ *  Created on: May 5, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+struct Time{
+	int hours;
+	int minutes;
+	int seconds;
+}start,stop,*startptr,*stopptr;
+
+int main(void){
+
+	startptr=&start;
+	stopptr=&stop;
+
+
+	return 0;
+}
+
+
+void start_time(struct Time *startptr){
+	printf("Enter start time: ");
+	printf("Hours: ");
+	fflush(stdout);
+	scanf("%d",&startptr->hours);
+	printf("Minutes: ");
+	fflush(stdout);
+	scanf("%d",startptr->minutes);
+	printf("Seconds: ");
+	fflush(stdout);
+	scanf("%d",&startptr->seconds);
+}
+
+void stop_time(struct Time *stopptr){
+	printf("Enter Stop Time: ");
+	printf("Hours: ");
+	fflush(stdout);
+	scanf("%d",&stopptr->hours);
+	printf("Minutes: ");
+	fflush(stdout);
+	scanf("%d",&stopptr->minutes);
+	printf("Seconds: ");
+	fflush(stdout);
+	scanf("%d",&stopptr->seconds);
+
+
+}
+

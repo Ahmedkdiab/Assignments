@@ -1,0 +1,5 @@
+20:48:40 **** Incremental Build of configuration Debug for project Prob10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Prob10.o "..\\Prob10.c" 
+gcc -o Prob10.exe Prob10.o 
+Info: Nothing to build for Prob10

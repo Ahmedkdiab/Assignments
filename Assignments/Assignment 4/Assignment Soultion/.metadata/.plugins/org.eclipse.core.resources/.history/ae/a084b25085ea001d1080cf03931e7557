@@ -1,0 +1,31 @@
+/*
+ * Prob02.c
+ *
+ *  Created on: May 4, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	char string[]="Ahmed";
+
+
+
+
+	return 0;
+}
+
+int countlenght(char *str){
+	char *ptr=str;
+	int count=0;
+
+	while(*ptr!='\0'){
+		ptr++;
+		count++;
+	}
+
+
+	return count;
+}

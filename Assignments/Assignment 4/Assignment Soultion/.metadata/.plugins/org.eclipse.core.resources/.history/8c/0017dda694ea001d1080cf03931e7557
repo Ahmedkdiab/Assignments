@@ -1,0 +1,39 @@
+/*
+ * Prob06.c
+ *
+ *  Created on: May 4, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+#define SIZE 5
+
+int main(void){
+	int i;
+	int Arr[SIZE]={10,25,3,60,8};
+	int *ptr[SIZE];
+
+	for(i=0;i<SIZE;i++){
+		ptr[i]=&Arr[i];
+	}
+
+	int max=*ptr[0];
+
+
+	for(i=0;i<SIZE;i++){
+		printf("%d\t",*ptr[i]);
+	}
+
+	for(i=1;i<SIZE;i++){
+		if(*ptr[i]>max){
+			max=*ptr[i];
+		}
+
+	}
+	printf("\nThe Max Value in Array is %d",max);
+
+
+
+	return 0;
+
+}

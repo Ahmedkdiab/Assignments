@@ -1,0 +1,18 @@
+/*
+ * PRob07.c
+ *
+ *  Created on: May 6, 2023
+ *      Author: Ahmed Diab
+ */
+
+
+#include <stdio.h>
+
+enum fan_level{
+	Level1=1,Level2,Level3
+};
+
+int main(void){
+
+	return 0;
+}

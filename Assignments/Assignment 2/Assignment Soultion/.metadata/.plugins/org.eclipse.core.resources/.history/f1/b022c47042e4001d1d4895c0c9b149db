@@ -1,0 +1,38 @@
+/*
+ * Prob09.c
+ *
+ *  Created on: Apr 26, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	void swap(int x,int y);
+
+	int num1,num2;
+	printf("Enter The First Num: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	printf("Enter Second Num: ");
+	fflush(stdout);
+	scanf("%d",&num2);
+	swap(num1, num2);
+
+
+
+	return 0;
+}
+
+void swap(int x,int y){
+
+	int temp=0;
+	temp=y;
+	y=x;
+	x=temp;
+
+printf("The Value before swap Num1=%d and Num2=%d",x,y);
+printf("The Value After swap Num1=%d and Num2=%d",x,y);
+
+}

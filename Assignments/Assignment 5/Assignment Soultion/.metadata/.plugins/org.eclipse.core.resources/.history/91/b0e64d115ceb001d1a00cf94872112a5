@@ -1,0 +1,79 @@
+/*
+ * Prob04.c
+ *
+ *  Created on: May 5, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+struct Time{
+	int hours;
+	int minutes;
+	int seconds;
+}start,stop,difference,*startptr,*stopptr,*difptr;
+
+
+void stop_time(struct Time *stopptr);
+void start_time(struct Time *startptr);
+void differenceTime(struct Time *startptr, struct Time *stopptr, struct Time *difptr);
+
+
+
+int main(void){
+
+	startptr=&start;
+	stopptr=&stop;
+	difptr=&difference;
+
+
+	start_time(startptr);
+	stop_time(stopptr);
+	differenceTime(startptr, stopptr, difptr);
+
+
+	return 0;
+}
+
+
+void start_time(struct Time *startptr){
+	printf("Enter start time:\n");
+	printf("Hours: ");
+	fflush(stdout);
+	scanf("%d",&startptr->hours);
+	printf("Minutes: ");
+	fflush(stdout);
+	scanf("%d",&startptr->minutes);
+	printf("Seconds: ");
+	fflush(stdout);
+	scanf("%d",&startptr->seconds);
+}
+
+void stop_time(struct Time *stopptr){
+	printf("Enter Stop Time:\n");
+	printf("Hours: ");
+	fflush(stdout);
+	scanf("%d",&stopptr->hours);
+	printf("Minutes: ");
+	fflush(stdout);
+	scanf("%d",&stopptr->minutes);
+	printf("Seconds: ");
+	fflush(stdout);
+	scanf("%d",&stopptr->seconds);
+
+
+}
+
+void differenceTime(struct Time *startptr, struct Time *stopptr, struct Time *difptr){
+
+	int diff_hours=stopptr->hours-startptr->hours;
+	int diff_minu=stopptr->minutes-startptr->minutes;
+	int diff_seco=stopptr->seconds-startptr->seconds;
+
+	printf("The DIFFERENCE between Two Time is\n %d hours %d minutes %d seconds",diff_hours,
+			diff_minu,diff_seco);
+
+
+
+}
+

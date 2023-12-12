@@ -1,0 +1,11 @@
+LaunchTargetManager/configs/Prob02.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob09.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob14.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob18.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Prob01.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob02.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob03.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob04.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob05.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob06.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob06.exe (1),org.eclipse.launchbar.core.descriptorType.default\:Prob10.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob13.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob14.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob16.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob11.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob19.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob12.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob20.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob15.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob09.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob18.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Prob01.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Prob01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

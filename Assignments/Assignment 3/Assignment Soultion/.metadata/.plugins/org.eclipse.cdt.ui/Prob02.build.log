@@ -1,0 +1,7 @@
+16:58:59 **** Rebuild of configuration Debug for project Prob02 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Prob02.o "..\\Prob02.c" 
+gcc -o Prob02.exe Prob02.o 
+
+16:58:59 Build Finished. 0 errors, 0 warnings. (took 312ms)
+

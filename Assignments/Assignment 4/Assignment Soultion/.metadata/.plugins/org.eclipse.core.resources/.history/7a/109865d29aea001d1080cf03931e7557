@@ -1,0 +1,22 @@
+/*
+ * Prob08.c
+ *
+ *  Created on: May 4, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+
+	return 0;
+}
+
+void (int *arr1, int *arr2, int size){
+
+	int i;
+
+}
+
+

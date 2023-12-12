@@ -1,0 +1,27 @@
+/*
+ * Prob06.c
+ *
+ *  Created on: May 6, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+#include <string.h>
+
+union family_name{
+	char first_name[30];
+	char last_name[30];
+};
+
+int main(void){
+
+	union family_name f1;
+
+	strcpy(f1.first_name,"Ahmed Khaled");
+	printf("last name is: %s\n",f1.last_name);
+	printf("Union Size is: %d bytes",sizeof(union family_name));
+
+
+	return 0;
+}
+

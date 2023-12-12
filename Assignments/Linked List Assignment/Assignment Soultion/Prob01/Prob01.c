@@ -1,0 +1,82 @@
+/*
+ * Prob01.c
+ *
+ *  Created on: May 7, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node{
+	int data;
+	struct node *next;
+}Node;
+
+Node *head=NULL;
+
+void insert(int data, int position){
+
+	Node*link=(Node*)malloc(sizeof(Node));
+
+	link->data=data;
+
+	if(head==NULL){
+		head=link;
+		head->next=NULL;
+		return;
+	}
+
+	if(position==1){
+		link->next=head;
+		head=link;
+	}
+
+    Node *current = head;
+
+	for(int i=1;i<position-1;i++){
+		current=current->next;
+
+
+	}
+	link->next = current->next;
+	current->next = link;
+
+}
+
+
+
+void display(){
+
+	Node *ptr=head;
+	if(ptr==NULL){
+		printf("List is empty");
+		return;
+	}
+
+	while(ptr!=NULL){
+		printf("%d\n",ptr->data);
+		ptr=ptr->next;
+	}
+}
+
+int main (void){
+
+    insert(11, 1);
+    insert(3, 2);
+    insert(10, 3);
+    insert(50, 4);
+    insert(23, 5);
+    insert(5, 6);
+    insert(60, 7);
+
+    display();
+
+    insert(15, 4);
+    display();
+
+    return 0;
+
+}
+
+

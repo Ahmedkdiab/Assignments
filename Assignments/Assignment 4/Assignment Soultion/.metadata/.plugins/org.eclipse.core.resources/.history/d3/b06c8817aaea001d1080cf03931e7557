@@ -1,0 +1,40 @@
+/*
+ * Prob09.c
+ *
+ *  Created on: May 4, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+#include <string.h>
+#define SIZE 10
+void separat(char *str1,char *str2);
+
+
+int main(void){
+
+	char s1[10]="Ahmed";
+	char s2[4];
+	separat(s1, s2);
+
+
+
+	return 0;
+}
+
+void separat(char *str1,char *str2){
+	int i;
+	char *ptr1=str1;
+	char *ptr2=str2;
+
+	while(*ptr1!='\0'){
+
+
+
+
+	}
+
+	printf("%s\t",str2[i]);
+
+}
+

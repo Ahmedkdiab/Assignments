@@ -1,0 +1,8 @@
+15:02:32 **** Incremental Build of configuration Debug for project Prob07 ****
+Info: Internal Builder is used for build
+gcc -o Prob07.exe Prob07.o 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Prob07.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+15:02:32 Build Failed. 1 errors, 0 warnings. (took 99ms)
+

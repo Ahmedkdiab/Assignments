@@ -1,0 +1,61 @@
+/*
+ * Prob02.c
+ *
+ *  Created on: May 5, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+struct distances{
+	int inch;
+	int feet;
+}d1,d2;
+
+void distances1(struct distances d1);
+void distances2(struct distances d2);
+
+
+
+int main(void){
+
+	distances1(d1);
+	distances2(d2);
+
+	int sum_feet=d1.feet+d2.feet;
+	int sum_inches=d1.inch+d2.inch;
+	printf("The Sum of Feet is %d\nsum of Inches is %d",sum_feet,sum_inches);
+
+
+
+
+	return 0;
+}
+
+void distances1(struct distances d1){
+	printf("Enter the first distance in feet and inches:\n");
+	printf("Feet:");
+	fflush(stdout);
+	scanf("%d",&d1.feet);
+	printf("Inches:");
+	fflush(stdout);
+	scanf("%d",&d1.inch);
+
+
+}
+
+void distances2(struct distances d2){
+	printf("Enter the second distance in feet and inches:\n");
+	printf("Feet:");
+	fflush(stdout);
+	scanf("%d",&d2.feet);
+	printf("Inches:");
+	fflush(stdout);
+	scanf("%d",&d2.inch);
+
+}
+
+
+
+
+

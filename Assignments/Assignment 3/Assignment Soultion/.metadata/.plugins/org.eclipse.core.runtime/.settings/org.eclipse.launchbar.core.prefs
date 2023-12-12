@@ -1,0 +1,15 @@
+LaunchTargetManager/configs/Prob03.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob06.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob07.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob10.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob12.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Prob13.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Prob01.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob02.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob03.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob05.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob07.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob06.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob7.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob08.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob09.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob09_2.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob10.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob12.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob13.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob14.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob15.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob16.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob18.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob19.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob17.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob22.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob11.exe,org.eclipse.launchbar.core.descriptorType.default\:Prob24.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Prob01.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Prob01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Prob03.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Prob03.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

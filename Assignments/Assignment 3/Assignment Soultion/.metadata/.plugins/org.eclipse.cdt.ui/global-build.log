@@ -1,0 +1,5 @@
+20:02:08 **** Incremental Build of configuration Debug for project Prob24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Prob24.o "..\\Prob24.c" 
+gcc -o Prob24.exe Prob24.o 
+Info: Nothing to build for Prob24

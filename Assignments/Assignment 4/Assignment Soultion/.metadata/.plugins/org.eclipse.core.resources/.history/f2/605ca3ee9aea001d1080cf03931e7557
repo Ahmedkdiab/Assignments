@@ -1,0 +1,65 @@
+/*
+ * Prob08.c
+ *
+ *  Created on: May 4, 2023
+ *      Author: Ahmed Diab
+ */
+
+#include <stdio.h>
+
+#define SIZE 5
+
+void Swap_Array(int *arr1, int *arr2, int size);
+
+int main(void){
+	int i;
+	int Arr1[SIZE]={1,2,3,4,5};
+	int Arr2[SIZE]={10,20,30,40,50};
+
+	printf("The Original Array (1) is\n");
+
+	for(i=0;i<SIZE;i++){
+		printf("%d\t",Arr1[i]);
+	}
+
+	printf("\nThe Original Array (2) is\n");
+
+	for(i=0;i<SIZE;i++){
+		printf("%d\t",Arr2[i]);
+
+	}
+
+	Swap_Array(Arr1, Arr2, SIZE);
+
+
+
+	return 0;
+}
+
+
+void Swap_Array(int *arr1, int *arr2, int size){
+	int i;
+	int temp;
+	int *ptr1=arr1;
+	int *ptr2=arr2;
+
+	for(i=0;i<size;i++){
+		temp=*(ptr1+i);
+		*(ptr1+i)=*(ptr2+i);
+		*(ptr2+i)=temp;
+
+
+	}
+
+	printf("\nThe Swaped Array (1) is:\n");
+	for(i=0;i<size;i++){
+		printf("%d\t",*(ptr1+i));
+	}
+
+	printf("\nThe Swaped Array (2) is:\n");
+	for(i=0;i<size;i++){
+		printf("%d\t",*(ptr2+i));
+	}
+}
+
+
